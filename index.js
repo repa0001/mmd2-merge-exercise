@@ -15,6 +15,7 @@ function typewriter(nodes, speed = 200) {
       charIndex = 0;
       if (nodeIndex >= nodes.length) {
         clearInterval(interval);
+
         return;
       }
     }
